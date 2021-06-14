@@ -17,12 +17,6 @@ body {
 
 }
 
-h1 {
-    font-size: 32px;
-    padding: 20px;
-    font-family: monospace;
-    font-weight: 600;
-}
 
 header li {
     list-style: none;
@@ -41,6 +35,15 @@ header li {
     background-position: cover;
 }
 
+.card {
+    width: 60%;
+    height: 300px;
+    display: inline-block;
+    background-color: mediumpurple;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
 .first-project {
 width: 60%;
 height: 300px;
@@ -53,20 +56,21 @@ margin-top: 18px;
 
 .about-me {
 width: 35%;
-height: 300px;
+height: 1230px;
 float: right;
-background-color: red;
+background-color: #f1f1f1;
 display: inline-block;
 margin-right: 20px;
 }
 
-h2 {
-    font-size: 24px;
+h1 {
+    font-size: 32px;
     padding: 20px;
-    text-align: center;
+    font-family: monospace;
+    font-weight: 600;
 }
 
-h3 {
+.subtitle {
     font-size: 24px;
     padding: 20px;
     text-align: center;
