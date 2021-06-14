@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -16,7 +17,6 @@ body {
     background-color: lightcoral;
 
 }
-
 
 header li {
     list-style: none;
@@ -39,14 +39,14 @@ header li {
     width: 60%;
     height: 300px;
     display: inline-block;
-    background-color: mediumpurple;
+    background-color: #cc99ff;
     margin-left: 20px;
     margin-top: 10px;
 }
 
 .first-project {
 width: 60%;
-height: 300px;
+height: 600px;
 float: left;
 background-color: lightcoral;
 display: inline-block;
@@ -56,11 +56,22 @@ margin-top: 18px;
 
 .about-me {
 width: 35%;
-height: 1230px;
+height: 1220px;
 float: right;
-background-color: #f1f1f1;
+background-color: #8cd9ff;
 display: inline-block;
 margin-right: 20px;
+}
+
+.contact-me {
+    width: 35%;
+    height: 300px;
+    position: relative;
+    bottom: 318px;
+    left: 63%;
+    margin-right: 20px;
+    display: inline-block;
+    background-color: burlywood;
 }
 
 h1 {
@@ -74,4 +85,19 @@ h1 {
     font-size: 24px;
     padding: 20px;
     text-align: center;
+}
+
+.first-img {
+    height: 520px;
+    width: 100%;
+    border: solid;
+    border-color: black;
+}
+
+.footer {
+    width: 100%;
+    border: solid;
+    border-color: black;
+    background-color: lightcoral;
+    height: 60px;
 }
