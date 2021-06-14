@@ -35,6 +35,15 @@ header li {
     background-position: cover;
 }
 
+.fudge2 {
+    width: auto;
+    height: 570px;
+    margin-left: 30px;
+    margin-top: 4px;
+    border: solid;
+    border-color: black;
+}
+
 .card {
     width: 60%;
     height: 600px;
@@ -120,6 +129,12 @@ main {
     display: inline-block;
     position: relative;
     bottom: 610px;
+}
+
+.paragraph {
+    padding: 5px;
+    border-style: ridge;
+    border-color: lightgreen;
 }
 
 @media screen and (max-width: 786px) {
