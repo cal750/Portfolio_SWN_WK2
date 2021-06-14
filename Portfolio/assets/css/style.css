@@ -86,6 +86,7 @@ h1 {
     padding: 20px;
     padding-bottom: 10px;
     text-align: center;
+    font-weight: bold;
 }
 
 .first-img {
@@ -100,7 +101,7 @@ section {
 }
 
 main {
-    
+
 }
 
 .other-img {
